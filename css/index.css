@@ -1,0 +1,174 @@
+    body * {
+        font-family: 'Montserrat','微軟正黑體','sans-serif';
+    }
+    
+    .content1 {
+        padding: 100px 0px 10px 0px;
+        text-align: center;
+        background: #b3b3b3; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#b3b3b3, #ffffff); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#b3b3b3, #ffffff); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#b3b3b3, #ffffff); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#b3b3b3, #ffffff); /* Standard syntax (must be last) */
+    }
+    
+    .img-profile {
+        border-radius: 50%;
+        width: 20%;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);
+    }
+    #icon_home{
+        height: 30px;
+    }
+
+/*row*/
+    .row {
+		border-bottom: solid 1px transparent;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.row > * {
+		float: left;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/*social*/
+    .social {
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        background-color: #333333;
+        text-align: center;
+    }
+    
+    .social h1 {
+        font-weight: bolder;
+        font-size: 50px;
+        color: #FFFFFF;
+    }
+    
+    .social h3 {
+        font-size: 24px;
+        color: #b3b3b3;
+        font-weight: 100;
+    }
+    
+    .social_group {
+        padding-left: 0px;
+    }
+    
+    .social_group li {
+        display: inline-block;
+    }
+    
+    .social_group label {
+        color: #FFFFFF;
+    }
+    
+    .social_link {
+        display: block;
+        text-decoration: none;
+        color: #e6e6e6;
+        width: 100px;
+    }
+    
+    .social_link:hover {
+        text-decoration: none;
+        color: #4d4d4d;
+    }
+
+/*experience*/
+    .experience {
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        background-color: #808080;
+    }
+    
+    .experience h1 {
+        font-weight: bolder;
+        font-size: 50px;
+        color: #333333;
+        text-align: center;
+    }
+    
+    .experience ul li {
+        font-family: Inconsolata, monospace;
+        list-style: none;
+        padding-left: 22%;
+    }
+    
+    .experience ul {
+        padding: 0px;
+    }
+    
+    .button_center {
+        text-align: center;
+    }
+    
+    .button_dark {
+        height: 50px;
+        padding: 0 35px;
+        border-radius: 50px;
+        line-height: 50px;
+        display: inline-block;
+        box-sizing: border-box;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        white-space: nowrap;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: .5px;
+        font-family: inherit;
+        font-size: 12px;
+        font-weight: 700;
+        transition: background-color .2s;
+        color: #fff;
+        background-color: #161616;
+        text-align: center;
+    }
+    
+    .button_dark:hover {
+        background-color: #404040;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+@media (min-width:300px){    /*when window size bigger than 300px*/
+	/*change font size*/
+	h1 {
+		font-size:20px;
+	}
+	/*change image size*/
+	#logo {
+		height: 180px;
+		width: 240px;
+	}
+}
+
+@media (min-width:500px){	/*when window size bigger than 500px*/
+	/*change font size*/
+	h1 {	
+		font-size:40px;
+	}
+	/*change image size*/
+	#logo {
+		height: 360px;
+		width: 480px;
+	}
+}
+
+@media (min-width:1000px){	/*when window size bigger than 1000px*/
+	/*change font size*/
+	h1 {
+		font-size:50px;
+	}
+	/*change image size*/
+	#logo {
+		height: 600px;
+		width: 800px;
+	}
+}
