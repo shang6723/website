@@ -79,7 +79,45 @@
         text-decoration: none;
         color: #4d4d4d;
     }
-
+    
+/*project*/
+    .project {
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        background-color: #4d4d4d;
+    }
+    
+    .project h1 {
+        font-weight: bolder;
+        font-size: 50px;
+        color: #a6a6a6;
+        text-align: center;
+    }
+    
+    .project ul {
+        padding: 0px;
+    }
+    
+    .project_item {
+        text-align: center;
+        font-family: Inconsolata, monospace;
+        list-style: none;
+    }
+    .project_item a img {
+        width: 30%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .project_item a img:hover {
+        padding-top: 2px;
+        padding-left: 2px;
+    }
+    
+    .project_item p {
+        padding: 10px 0px 10px 0px;
+        color: #ffffff;
+        font-size: 2vh;
+    }
+    
 /*experience*/
     .experience {
         padding: 10px 0px 10px 0px;
@@ -97,11 +135,11 @@
     .experience ul li {
         font-family: Inconsolata, monospace;
         list-style: none;
-        padding-left: 22%;
+        padding-left: 40vh;
     }
     
     .experience ul {
-        padding: 0px;
+        padding: 10px 0px 10px 0px;
     }
     
     .button_center {
