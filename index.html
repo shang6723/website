@@ -3,55 +3,57 @@
 <html>
 <head>
     <title>SHANG</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/menu.js"></script>
 </head>
 
 <body>
-    <div class="content1">
+    <section class="information">
         <div class="container">
-            <img class="img-profile" src="img/profile_1.png">
-            <h1>I'm <strong>Shang-Ching Hsu</strong>.</h1>
-            <h1>I'm a programmer.</h1>
+            <img class="my-image" src="img/profile_1.png">
+            <h1 class="my-name">Shang-Ching Hsu</h1>
+            <div class="my-intro">
+                <h3>I'm a full stack developer, and I pursue my master's degree at University of Southern California now.</h3>
+                <h3>During my leisure time, I would like to create interesting components and do layout design.</h3>
+            </div>
         </div>
-    </div>
-    
-    <div class="social">
-        <h1>Get in touch</h1>
-        <h3>shang6723@gmail.com</h3>
-        <ul class="social_group">
-            <li><a class="social_link" href="https://www.linkedin.com/in/shang-ching-hsu-b89626148/">LinkedIn</a></li><label>|</label>
-            <li><a class="social_link" href="https://github.com/shang6723">Github</a></li><label>|</label>
-            <li><a class="social_link" href="file/Resume.pdf">Resume</a></li>
-        </ul>
-    </div>
-    <div class="project">
-        <h1>Project</h1>
-        <ul>
-            <li class="project_item">
-                <a href="http://uschospitality.csie.io"><img src="img/uschospitality.gif"/></a>
-                <p>USC Hospitality</p>
-            </li>
-        </ul>
-    </div>
-    <div class="experience">
-        <h1>Experience</h1>
-        <ul>
-            <li>08/2017 - present &nbsp Graduate student - University of Southern California (USC), Los Angeles, CA, USA</li>
-            <li>12/2016 - 07/2017 &nbsp IT Intern - DHL Express, Taipei, Taiwan</li>
-            <li>09/2015 - 06/2016 &nbsp IT Assistant - LUMEI Architect Office, Taipei, Taiwan</li>
-            <li>04/2012 - 06/2015 &nbsp Dormitory Network Administrator - CCU, Chiayi, Taiwan</li>
-            <li>07/2012 - 06/2013 &nbsp President of the Computer Science Department's Student Association - CCU, Chiayi, Taiwan</li>
-            <li>09/2011 - 06/2015 &nbsp Undergraduate student - National Chung Cheng University (CCU), Chiayi, Taiwan</li>
-        </ul>
-        <div class="button_center">
-            <a class="button_dark" href="file/Resume.pdf">MORE</a>
-        </div>
-    </div>
+    </section>
 
+    <section class="ability">
+        <div class="container">
+            <span>&raquo;</span>
+            <label class="tech">HTML/CSS</label><span class="techsymbol">&times;</span>
+            <label class="tech">Sass/Scss</label><span class="techsymbol">&times;</span>
+            <label class="tech">Javascript</label><span class="techsymbol">&times;</span>
+            <label class="tech">AngularJS</label><span class="techsymbol">&times;</span>
+            <label class="tech">ReactJS</label><br />
+            <span>&raquo;</span>
+            <label class="tech">JAVA</label><span class="techsymbol">&times;</span>
+            <label class="tech">PHP</label><span class="techsymbol">&times;</span>
+            <label class="tech">C</label><span class="techsymbol">&times;</span>
+            <label class="tech">Struts 2/Servlet</label>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <button type="button" class="portfolio-button" onclick="location.href='design.html';">Design</button>
+        </div>
+    </section>
+
+    <section class="social">
+        <div class="container">
+            <ul class="social_group">
+                <li><a class="social_link" href="https://www.linkedin.com/in/shang-ching-hsu-b89626148/">LinkedIn</a></li><label>&brvbar;</label>
+                <li><a class="social_link" href="https://github.com/shang6723">Github</a></li><label>&brvbar;</label>
+                <li><a class="social_link" href="file/Resume.pdf">Resume</a></li>
+            </ul>
+            <ul class="social_group">
+                <li id="email">shang6723@gmail.com</li>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>

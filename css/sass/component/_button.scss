@@ -1,0 +1,29 @@
+%button-basic {
+    margin: 3px;
+    border-radius: 1em;
+    border: 0px;
+    outline: none;
+}
+
+@mixin button-rectangle ($width: 100px, $height: 30px){
+    @extend %button-basic;
+    width: $width;
+    height: $height;
+    background-color: #8E354A;
+    border-style: solid;
+    border-width: 0px 5px 5px 0px;
+    border-color: #64363C;
+    color: #ffffff;
+}
+
+@mixin button-circle ($width: 50px, $height: 50px){
+    @extend %button-basic;
+    width: $width;
+    height: $height;
+    background-color: #FC9F4D;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0px 5px 5px 0px;
+    border-color: #E98B2A;
+    color: #ffffff;
+}

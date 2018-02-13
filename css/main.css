@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.portfolio-button, .visite-button {
+  margin: 3px;
+  border-radius: 1em;
+  border: 0px;
+  outline: none; }
+
+body {
+  font-family: "Montserrat", "微軟正黑體", "sans-serif";
+  background-color: #0D5661;
+  color: #ffffff;
+  text-align: center; }
+
+.container {
+  padding: 10px; }
+
+.my-image {
+  margin: 50px 0px 10px 0px;
+  padding: 5px;
+  width: 150px;
+  border: 5px solid #3d3d3d;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 6px 6px 6px 6px rgba(0, 0, 0, 0.19); }
+
+.my-intro {
+  margin: 0px auto;
+  padding: 5px;
+  text-align: justify;
+  color: #ffffff7e;
+  width: 50vw; }
+
+.ability {
+  color: #81C7D4;
+  font-size: 1em; }
+  .ability div {
+    padding-top: 20px; }
+    .ability div label {
+      margin-right: 3px;
+      padding: 0px; }
+
+.techsymbol {
+  color: #86C166; }
+
+.portfolio-button {
+  width: 100px;
+  height: 30px;
+  background-color: #8E354A;
+  border-style: solid;
+  border-width: 0px 5px 5px 0px;
+  border-color: #64363C;
+  color: #ffffff;
+  font-family: "Montserrat", "微軟正黑體", "sans-serif"; }
+  .portfolio-button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.social_group {
+  padding-left: 0px;
+  color: #FFC408; }
+  .social_group li {
+    display: inline-block; }
+    .social_group li a {
+      display: block;
+      text-decoration: none;
+      color: #FFC408;
+      width: 100px; }
+      .social_group li a:hover {
+        color: rgba(255, 197, 8, 0.452); }
+  .social_group label {
+    color: rgba(255, 197, 8, 0.493); }
+
+#email {
+  color: #FAD689; }
+
+.design-block {
+  padding: 10px;
+  margin: 5px auto;
+  width: 30vw;
+  border: 1px solid #ffffff;
+  border-radius: 10px; }
+
+.design-preview img {
+  width: 30vw;
+  height: 20vw;
+  border-radius: 10px; }
+
+.visite-button {
+  width: 50px;
+  height: 50px;
+  background-color: #FC9F4D;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0px 5px 5px 0px;
+  border-color: #E98B2A;
+  color: #ffffff;
+  font-family: "Montserrat", "微軟正黑體", "sans-serif";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .visite-button:hover, .visite-button:active {
+    opacity: 0.5; }
+
+/*# sourceMappingURL=main.css.map */
